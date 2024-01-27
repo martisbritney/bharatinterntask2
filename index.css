@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(pngtree-hand-drawn-blue-sky-white-clouds-weather-forecast-illustration-background-image_270899.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#App {
+  margin: 60px;
+  padding: 50px;
+  line-height: 2;
+  background-color: rgba(
+    51,
+    46,
+    46,
+    0.7
+  ); /* Adjust the alpha value for transparency */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px; /* Slightly increased border radius */
+  max-width: 500px;
+  font-size: larger;
+  text-align: center;
+}
+
+#cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#cityname {
+  width: 80%;
+  padding: 10px;
+  font-size: large;
+  border: 1px solid #ddd; /* Added a border for better visual appearance */
+  border-radius: 10px;
+}
+
+#fetchweather {
+  padding: 10px 20px;
+  background-color: rgb(7, 165, 218);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added a smooth transition */
+}
+
+#fetchweather:hover {
+  background-color: rgb(5, 137, 184); /* Darker shade on hover */
+}
